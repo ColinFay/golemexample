@@ -6,9 +6,7 @@ app_ui <- function() {
     # List the first level UI elements here 
     fluidPage(
       h1("golemexample"), 
-      tags$img(
-        src = "www/guit.jpg"
-      )
+      mod_my_first_module_ui("my_first_module_ui_1")
     )
   )
 }
@@ -26,6 +24,8 @@ golem_add_external_resources <- function(){
     # Add here all the external resources
     # If you have a custom.css in the inst/app/www
     # Or for example, you can add shinyalert::useShinyalert() here
-    tags$link(rel="stylesheet", type="text/css", href="www/custom.css")
+    tags$link(rel="stylesheet", type="text/css", href="www/custom.css"), 
+    tags$script(src="www/alertme.js"), 
+    tags$script(src="www/handlers.js")
   )
 }

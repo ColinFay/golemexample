@@ -24,7 +24,7 @@ golem::browser_button()
 
 ## 2.5 Add external files
 
-golem::add_js_file( "script" )
+golem::add_js_file( "alertme" )
 golem::add_js_handler( "handlers" )
 golem::add_css_file( "custom" )
 

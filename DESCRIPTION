@@ -7,10 +7,17 @@ License: What license is it under?
 Encoding: UTF-8
 LazyData: true
 Imports: 
-    shiny, 
-    golem
+    shiny,
+    golem,
+    processx,
+    attempt,
+    DT,
+    glue,
+    htmltools
 Remotes: 
     Thinkr-open/golem
 RoxygenNote: 6.1.1
 URL: https://github.com/colinfay/golemexample
 BugReports: https://github.com/colinfay/golemexample/issues
+Suggests: 
+    testthat
