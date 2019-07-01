@@ -5,7 +5,7 @@ app_ui <- function() {
     golem_add_external_resources(),
     # List the first level UI elements here 
     fluidPage(
-      h1("golemexample"), 
+      h1(get_golem_options("name")), 
       mod_my_first_module_ui("my_first_module_ui_1")
     )
   )

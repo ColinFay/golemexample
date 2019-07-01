@@ -3,6 +3,7 @@
 export(mod_my_first_module_server)
 export(mod_my_first_module_ui)
 export(run_app)
+import(golem)
 import(shiny)
 importFrom(glue,glue)
 importFrom(golem,with_golem_options)
