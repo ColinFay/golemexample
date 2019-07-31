@@ -31,8 +31,11 @@ mod_my_other_module_ui <- function(id){
     
 mod_my_other_module_server <- function(input, output, session, r){
   ns <- session$ns
+  
+  r$my_other_module <- reactiveValues()
+  
   observeEvent( input$which , {
-    r$my_other_module <- input$which
+    r$my_other_module$which <- input$which
   })
   
   

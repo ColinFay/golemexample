@@ -29,8 +29,8 @@ mod_my_third_module_ui <- function(id){
 mod_my_third_module_server <- function(input, output, session, r){
   ns <- session$ns
   output$df <- renderTable({
-    print(r$my_other_module)
-    head(get(r$my_other_module), 10)
+    print(r$my_other_module$which)
+    head(get(r$my_other_module$which), 10)
   })
 }
     
