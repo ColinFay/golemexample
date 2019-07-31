@@ -12,6 +12,17 @@ experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](h
 The goal of golemexample is to provide some examples for the inner
 configuration of a `{golem}` app.
 
+## Share value across modules
+
+  - Add a top level reactiveValue
+    <https://github.com/ColinFay/golemexample/blob/master/R/app_server.R#L6>
+
+  - Add a nested level inside modules
+    <https://github.com/ColinFay/golemexample/blob/master/R/mod_my_other_module.R#L35>
+
+  - Share this across modules
+    <https://github.com/ColinFay/golemexample/blob/master/R/mod_my_third_module.R#L33>
+
 ## Adding external files
 
 ### CSS
