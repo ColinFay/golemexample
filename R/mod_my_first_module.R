@@ -48,7 +48,7 @@ mod_my_first_module_ui <- function(id){
 #' @export
 #' @keywords internal
     
-mod_my_first_module_server <- function(input, output, session){
+mod_my_first_module_server <- function(input, output, session, r){
   ns <- session$ns
   output$df <- renderTable({
     dataset

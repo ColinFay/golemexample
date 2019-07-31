@@ -6,7 +6,16 @@ app_ui <- function() {
     # List the first level UI elements here 
     fluidPage(
       h1(get_golem_options("name")), 
-      mod_my_first_module_ui("my_first_module_ui_1")
+      mod_my_first_module_ui("my_first_module_ui_1"), 
+      col_12(
+        br() 
+      ),
+      col_6(
+        mod_my_other_module_ui("my_other_module_ui_1") %>% div(align = "center")
+      ), 
+      col_6(
+        mod_my_third_module_ui("my_third_module_ui_1") %>% div(align = "center")
+      )
     )
   )
 }

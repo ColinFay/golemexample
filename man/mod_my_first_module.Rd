@@ -7,7 +7,7 @@
 \usage{
 mod_my_first_module_ui(id)
 
-mod_my_first_module_server(input, output, session)
+mod_my_first_module_server(input, output, session, r)
 }
 \arguments{
 \item{id}{shiny id}
