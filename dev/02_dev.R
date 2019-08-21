@@ -10,6 +10,7 @@
 golem::add_module( name = "my_first_module" ) # Name of the module
 golem::add_module( name = "my_other_module" ) # Name of the module
 golem::add_module( name = "my_third_module" ) # Name of the module
+golem::add_module( name = "my_fourth_module" ) # Name of the module
 
 ## 2.2 Add dependencies
 
