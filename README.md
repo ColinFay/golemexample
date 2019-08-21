@@ -25,7 +25,7 @@ configuration of a `{golem}` app.
 
 ## Change Shiny Options
 
-<https://github.com/ColinFay/golemexample/blob/master/R/run_app#L14>
+<https://github.com/ColinFay/golemexample/blob/master/R/run_app.R#L14>
 
 ## Adding external files
 
