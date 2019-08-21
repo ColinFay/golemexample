@@ -23,6 +23,10 @@ configuration of a `{golem}` app.
   - Share this across modules
     <https://github.com/ColinFay/golemexample/blob/master/R/mod_my_third_module.R#L33>
 
+## Change Shiny Options
+
+<https://github.com/ColinFay/golemexample/blob/master/R/run_app#L14>
+
 ## Adding external files
 
 ### CSS

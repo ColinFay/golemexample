@@ -4,7 +4,7 @@
 \alias{run_app}
 \title{Run the Shiny Application}
 \usage{
-run_app(name = "example", time = Sys.time())
+run_app(name = "example", time = Sys.time(), port = 2811)
 }
 \description{
 Run the Shiny Application
