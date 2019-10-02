@@ -18,6 +18,9 @@ app_ui <- function() {
       ), 
       col_6(
         mod_my_fourth_module_ui("my_fourth_module_ui_1") %>% div(align = "center")
+      ),
+      col_6(
+        mod_my_fifth_module_ui("my_fifth_module_ui_1") %>% div(align = "left")
       )
     )
   )

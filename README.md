@@ -96,8 +96,24 @@ configuration of a `{golem}` app.
   - Read in server at `R/app_server.R#5`
     <https://github.com/ColinFay/golemexample/blob/master/R/app_server.R#L5>
 
-<hr>
+## Using datasets inside your app
+
+  - Register your dataset as a package data
+    <https://github.com/ColinFay/golemexample/blob/master/data-raw/dataset.R#L6>
+    which is turned into
+    <https://github.com/ColinFay/golemexample/blob/master/data/plop.rda>
+
+  - Use your data object wherever you need it (in your UI or server)
+    \<\> and \<\>
+    
+    <hr>
 
 Please note that the ‘golemexample’ project is released with a
 [Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
 this project, you agree to abide by its terms.
+
+## Using shiny::includeXXX
+
+  - Add elements in `inst/app/www`
+
+  - Use `system.file("app/www/plop.md", package = "golemexample")`
