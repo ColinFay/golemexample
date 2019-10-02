@@ -104,16 +104,17 @@ configuration of a `{golem}` app.
     <https://github.com/ColinFay/golemexample/blob/master/data/plop.rda>
 
   - Use your data object wherever you need it (in your UI or server)
-    \<\> and \<\>
-    
-    <hr>
-
-Please note that the ‘golemexample’ project is released with a
-[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
-this project, you agree to abide by its terms.
 
 ## Using shiny::includeXXX
 
   - Add elements in `inst/app/www`
+    <https://github.com/ColinFay/golemexample/blob/master/inst/app/www/plop.md>
 
   - Use `system.file("app/www/plop.md", package = "golemexample")`
+    <https://github.com/ColinFay/golemexample/blob/master/R/mod_my_fifth_module.R#L19>
+
+<hr>
+
+Please note that the ‘golemexample’ project is released with a
+[Contributor Code of Conduct](CODE_OF_CONDUCT.md). By contributing to
+this project, you agree to abide by its terms.
