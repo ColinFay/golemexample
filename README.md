@@ -67,7 +67,7 @@ configuration of a `{golem}` app.
     <https://github.com/ColinFay/golemexample/blob/master/dev/02_dev.R#L28>
 
   - Personnalized in `inst/app/www/handler.js`
-    <https://github.com/ColinFay/golemexample/tree/master/inst/app/www/handler.js>
+    <https://github.com/ColinFay/golemexample/blob/master/inst/app/www/handlers.js>
 
   - Linked to the app at `R/app_ui.R#29`
     <https://github.com/ColinFay/golemexample/blob/master/R/app_ui.R#L29>
